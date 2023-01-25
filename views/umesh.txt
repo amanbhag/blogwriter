@@ -1,0 +1,8 @@
+<%- include('partials/header'); -%>
+<h1>Title</h1>
+<p><%= post1 %></p>
+<!-- <div>
+   <h2> <%= JSON.stringify(nextpost[0].posttitle) %> </h2>
+   <p><%= JSON.stringify(nextpost[0].postcontent) %></p>
+</div> -->
+<div><p><%= nextpost %> </p></div>
